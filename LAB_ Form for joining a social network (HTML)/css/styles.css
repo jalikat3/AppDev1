@@ -1,0 +1,18 @@
+body{
+   background-color: antiquewhite;
+}
+header{
+   background-color: darkgreen;
+   font-size: 1.5em;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.headTitle{
+   font-size: 1.5rem;
+   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   color: antiquewhite;
+   text-align: center;
+}
+.emph{
+   font-style: italic;
+
+}
