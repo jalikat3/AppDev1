@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+ }
+ header, footer{
+    background-color: darkgreen;
+    font-size: 1.5em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
+ .headTitle{
+    font-size: 1.5rem;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: antiquewhite;
+    text-align: center;
+ }
+ .emph{
+    font-style: italic;
+ 
+ }
+ p#footerContent{
+    color: antiquewhite;
+    font-size: .5em;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+ form label{
+    color:darkgreen;
+ }
+ #email:hover{
+   background-color:orange;
+   cursor:crosshair;
+ }
+ label::selection{
+    background-color: yellow;
+ }

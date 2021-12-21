@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<head>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <h1 class="headTitle">In Class <span class="emph">Forms</span></h1>
+</header>
+<main>
+    <form action="https://wp.zybooks.com/form-viewer.php" method="GET">
+        <label for="firstName">First Name: </label>
+        <input id="firstName" name="firstName" type="text">
+        <label for="lastName">Last Name: </label>
+        <input id="lastName" name="lastName" type="text">
+        <br>
+        <label for="abtMe">About Me</label>
+        <textarea id="abtMe" name="abtMe" rows="10" cols="50">Initial Text</textarea>
+        <br>
+        <br>
+        <label for="question">Is the sky blue?</label>
+
+        <input id="questionTrue" type="radio" name="question" value="True" checked>
+        <label for="questTrue">TRUE</label>
+        <input id="questionFalse" type="radio" name="question" value="False">
+        <label for="questFalse">FALSE</label>
+        <br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+        <br>
+        <input id="picture" type="file" name="pict">
+
+        <label for="email">Email</label>
+        <input id="email" type="email" placeholder="jdoe@email.com"
+                pattern="[a-zA-Z0-9-_\.]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*" required>
+    </form>
+    
+    </main>
+    <footer>
+        <p id="footerContent">This is a footer</p>
+    </footer>
+    
+
+
+</body>
+</html>

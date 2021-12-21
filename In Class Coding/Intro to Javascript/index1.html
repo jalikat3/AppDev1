@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Examples</title>
+    <script>
+        function displaySum(x, y, z) {
+            console.log(x + y + z);
+        }
+        
+        function findAverage(a, b) {
+            return (a + b) / 2;
+        }
+        
+        // Function name is omitted
+        var displaySum2 = function(x, y, z) {
+            console.log(x + y + z);
+        }
+        
+    </script>
+</head>
+
+<body>
+    <h1>Javascript examples</h1>
+    <script>
+        var x, y;
+        x = "2";
+        console.log("x = " + x);
+        y = x + 3;
+        console.log("y = " + y);
+        //alert("y = " + y);
+    </script>
+    
+    <script>
+        console.log("Input/Output Example");
+        // Display the prompt dialog box
+        var name = prompt("What is your name?");
+
+        // Output to the console
+        console.log('Hello, ' + name + "!");
+    </script>
+    <script>
+        /*console.log("Another simple example of finding the volume of a sphere");
+        var vol, radius
+        const pi = 3.1415;
+        
+        // Ask for a radius
+        radius = prompt("Enter a radius for a sphere.");
+        var radiusFloat = parseFloat(radius);
+        
+        // Calculate the vol
+        vol = 4/3 * pi * radiusFloat**3;
+        
+        console.log("The volume is: " + vol); */    
+    </script>
+   <script>
+        /*console.log("Example conditional statement and ");
+        console.log("checking for equality and strict Idenity");
+        var a = 2;
+    
+        if (a == "2") {      // check value only
+            if (a === "2") { // check value & type
+                x = 1;
+            }
+            else {
+                x = 0;
+            }
+        }
+        console.log("x = " + x); */
+    </script>
+    <script>
+        // NaN values
+        var not_a_Number = "2ab3"
+        if (isNaN(not_a_Number)) {
+            console.log('not_a_Number is not number');
+        }
+        else {
+            console.log('not_a_Number is a number');
+        }
+
+        var value = parseInt(not_a_Number);
+        console.log("value = " + value);
+
+    </script>
+    
+ <script>
+       // truthy and falsy values
+        console.log("Example of truthy and falsy values.")
+        var msg;
+        if (57) {
+            msg = "57 is a truthy value.";
+        }
+        else {
+            msg = "57 is a falsy value.";
+        }
+        console.log(msg);
+
+        if (0) {
+            msg = "0 is a truthy value.";
+        }
+        else {
+            msg = "0 is a falsy value.";
+        }
+        console.log(msg);
+
+        var myVar;
+        if(myVar) {
+            console.log("The value of myVar is truthy");
+            console.log("myVar = " + myVar);
+        }
+        else {
+            console.log("The value of myVar is falsy");
+            console.log("myVar = " + myVar);
+        }
+        
+        var myFloat = parseFloat("abc");
+        if (myFloat) {
+            msg = myFloat + " is a truthy value.";
+        }
+        else {
+            msg = myFloat + " is a falsy value.";
+        }
+        console.log(msg);  
+     </script> 
+
+    <script>
+        console.log("Example switch statement");
+        var terminal = "+77a";
+        var token;
+        console.log("First letter is " + terminal[0]);
+        switch (terminal[0]) {
+            case "-":
+            case "1": 
+            case "2": 
+            case "3": 
+            case "4": 
+            case "5":
+            case "6": 
+            case "7": 
+            case "8": 
+            case "9":
+                token = "LITERAL";
+                break;
+            case "a": case "b": case "c":
+                token = "VAR"
+                break;
+            default:
+                token = "ERR"
+        }
+        console.log("The token  is " + token);        
+        
+     </script>
+
+    
+   <script>
+        console.log("Examples of looping");
+        let i = 5;
+        while (i <= 4) {
+            console.log(i);
+            i++;
+        }
+        console.log("While loop Done!");
+        
+        i = 5;
+        do {
+            console.log(i);
+            i++;
+        } while (i <= 4);
+        console.log("Do While Done!");
+        
+        for (let i = 1; i <= 4; i++) {
+            console.log(i);
+        }
+        console.log("for loop Done!");
+    </script>
+    
+    <script>
+        console.log("Example of functions");
+        console.log("Display Sum of 2, 5, and 3.");
+        displaySum(2, 5, 3);   // 10
+        
+        var ave = findAverage(6, 7);  //6.5
+        console.log("The average is " + ave);
+        
+        console.log("The sum of 1, 2, and 3 using the second sum function");
+        displaySum2(1, 2, 3); // 6
+        
+        // Anonymous function that calls itself
+        (function(name) {
+            console.log("Hello, Anonymous! Msg from " + name);
+        })("Snoopy");
+        
+        var findSum = (a, b) => a + b;
+        var sum = findSum(3, 6);
+        console.log("The sum from the sum \"arrow fn\" is " + sum);
+
+        var square = x => x * x;
+
+        console.log("The square using the square \"arrow fn\" is " + square(5));
+    </script>
+    <script>
+        var str = "my secret string";
+        console.log("str is: " + str);
+        console.log("Secret position is: " + str.indexOf("secret"));
+        console.log("str's lenght is: " + str.length);
+
+    </script>
+    <p hidden>Note to self: Explore scoping.  Use Participation Activity 6.5.8???</p>
+</body>
+</html>

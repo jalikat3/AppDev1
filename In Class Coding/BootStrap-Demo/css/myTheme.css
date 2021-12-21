@@ -1,0 +1,25 @@
+:root {
+   --main-club-color: #2d6b36;
+   --header-login-color: #e6b800;
+   --header-login-color-dark: #997a00;
+   --header-signup-color-light: #e2e2e2;
+   --header-signup-color-dark: #8c8c8c;
+   --header-foreground-color-light: white;
+   --header-foreground-color-dark: black;
+}
+
+header, footer {
+    background-color: var(--main-club-color);
+}
+
+header {
+    border-bottom: 5px solid var(--header-login-color);
+}
+
+footer {
+    color: var(--header-login-color);
+}
+
+body {
+    background-color: var(--header-signup-color-light);
+}

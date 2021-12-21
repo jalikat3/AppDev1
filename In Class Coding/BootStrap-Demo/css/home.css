@@ -1,0 +1,81 @@
+/* header elements for home page */
+/* login button */
+header button[class~="btn-outline-warning"] {
+    border-color: var(--header-login-color);
+}
+
+header button[class~="btn-outline-warning"]:hover {
+    background-color: var(--header-login-color);
+}
+
+/* Active page indicator */
+header a[class~="link-warning"] {
+    color: var(header-login-color);
+}
+
+/* sign-up button */
+header button[class~="btn-secondary"] {
+    color: var(--header-foreground-color-dark);
+    background-color: var(--header-signup-color-light);
+}
+
+header button[class~="btn-secondary"]:hover {
+    background-color: var(--header-signup-color-dark);
+}
+
+/* Sign-in button */
+header button[type="submit"]{
+    background-color: var(--header-login-color);
+    color: var(--header-foreground-color-dark);
+}
+
+header button[type="submit"]:hover {
+    background-color: var(--header-login-color-dark);
+    color: var(--header-foreground-color-light);
+}
+
+header button[type="submit"]:focus {
+    background-color: var(--main-club-color);
+}
+
+/* Make the border of the unchecked checkbox the login color */
+header input[type="checkbox"] {
+    border: 1px solid var(--header-login-color);
+}
+
+/* Make the checked checkbox the login color */
+header input[type="checkbox"]:checked {
+    background: var(--header-login-color);
+    border: 1px solid var(--header-login-color);
+}
+
+/* Make the border of the unchecked checkbox the login color */
+header input[type="checkbox"] {
+    border: 1px solid var(--header-login-color);
+}
+
+/* Change the color of the Forgot password link */
+div[class~="row"] div:nth-child(2) a {
+    color: var(--header-login-color);
+}
+
+/* Sign-up modal */
+.modal button[class~="btn-primary"]{
+    color: var(--header-foreground-color-dark);
+    background-color: var(--header-login-color);
+}
+
+.modal button[class~="btn-primary"]:hover {
+    color: var(--header-foreground-color-light);
+    background-color: var(--header-login-color-dark);
+}
+
+.modal button[class~="btn-secondary"]{
+    color: var(--header-foreground-color-dark);
+    background-color: var(--header-signup-color-light);
+}
+
+.modal button[class~="btn-secondary"]:hover {
+    color: var(--header-foreground-color-light);
+    background-color: var(--header-signup-color-dark);
+}

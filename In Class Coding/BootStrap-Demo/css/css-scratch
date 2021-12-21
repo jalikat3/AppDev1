@@ -1,0 +1,16 @@
+/* header button[class~="btn-outline-warning"] {
+    border-color: var(--header-login-color);
+}
+
+header button[class~="btn-outline-warning"]:hover {
+    background-color: var(--header-login-color);
+} */
+
+header button[class~="btn-secondary"] {
+    color: var(--header-foreground-color-dark);
+    background-color: var(--header-signup-color-light);
+}
+
+header button[class~="btn-secondary"]:hover {
+    background-color: var(--header-signup-color-dark);
+}
