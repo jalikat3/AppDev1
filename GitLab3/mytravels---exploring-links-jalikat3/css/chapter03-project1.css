@@ -1,0 +1,155 @@
+@CHARSET "ISO-8859-1";
+/* Styles for for Project 1, Share Your Travels, for Chapter 3 */
+
+/* Link to open source fonts */
+/* I could not get this to work by the Google API is much easier to use. */
+/* @font-face {
+	font-family: "Ubuntu";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Ubuntu"), url(fonts/Ubuntu-Regular.ttf) format('truetype');
+}
+
+@font-face {
+	font-family: "Vollkorn";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Vollkorn"), url(fonts/Vollkorn-Regular.ttf) format('truetype');
+} */
+
+/* Set the color for the complete page*/
+body {
+	background-color: #18272D;
+}
+
+/* Styles for the header and footer */
+header#pageHead, footer#pageFoot {
+	color: white;
+	background-color: #3D6271;
+	margin: 0em 4em 0.5em 4em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+	font-family: "Ubuntu", sans-serif;
+}
+
+header#pageHead h1 {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+header#pageHead h2 {
+	font-size: 1.12em;
+}
+
+nav#pageNav {
+	background-color: #8BA1AA;
+	margin-top: 0.5em;
+	margin-bottom: -0.5em;
+	margin-left: -0.5em;
+	margin-right:-0.5em;
+	padding: 0.3em 0.5em 0.3em 0.5em;
+	font-weight: normal;
+	font-size: 1em;
+}
+
+nav#pageNav ul {
+	list-style: none;	
+}
+
+nav#pageNav li {
+	display: inline;
+}
+
+nav#pageNav a:link {
+	text-decoration: underline;
+	color: #CC3300;
+}
+
+nav#pageNav a:visited {
+	text-decoration: underline;
+	color: 	#ffa366;
+}
+
+nav#pageNav a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* footer navigation styles */
+
+nav#footerNav {
+	font-size: 0.75em;
+	padding: 0em 0em 0.6em 0em;
+}
+
+nav#footerNav a:link {
+	text-decoration: underline;
+	color: #ff6600;
+}
+
+nav#footerNav a:visited {
+	text-decoration: underline;
+	color: #ffa366;
+}
+
+nav#footerNav a:hover {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+footer #copyright {
+	font-size: 0.6em;
+}
+
+/* Styles for the main body. */
+#main {
+	background-color: white;
+	font-family: "Vollkorn", serif;
+	font-size: 0.88em;
+	margin: 0.7em 4.5em 0.7em 4.5em;
+	padding: 0.5em 0.5em 0.5em 0.5em;
+}
+
+/* Style the Place heading */
+#main h2 {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 1.5em;
+	margin-bottom: 0.7em;
+}
+
+article {
+	margin-bottom: 2em;
+}
+
+/* Style the article headings */
+article header h3 {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 1em;
+	border-bottom: solid 1pt black;
+	margin-bottom: 0.5em;
+}
+
+/* Style the description article content */
+article p {
+	margin-bottom: 0.3em;
+}
+
+p#byLine, p#caption {
+	color: SlateGray;
+}
+
+article#description img#mainImg {
+	width: 75%;
+	border: solid 1pt black;
+	padding: 0.15em;
+}
+
+article#description #share {
+	background-color: lightgray;
+	border: solid 0.5pt grey;
+	border-radius: 4pt;	
+}
+
+article#description #share p {
+	padding: 0.25em 0.5em 0.1em 0.5em;
+	margin-bottom: 0em;
+}
